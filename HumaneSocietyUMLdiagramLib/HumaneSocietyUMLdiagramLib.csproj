@@ -40,20 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeneratedCode\Adopter.cs" />
-    <Compile Include="GeneratedCode\AdoptionDesk.cs" />
-    <Compile Include="GeneratedCode\Animals.cs" />
-    <Compile Include="GeneratedCode\Bird.cs" />
-    <Compile Include="GeneratedCode\Birdfood.cs" />
-    <Compile Include="GeneratedCode\Cage.cs" />
-    <Compile Include="GeneratedCode\Cat.cs" />
-    <Compile Include="GeneratedCode\CatFood.cs" />
-    <Compile Include="GeneratedCode\Dog.cs" />
-    <Compile Include="GeneratedCode\DogFood.cs" />
-    <Compile Include="GeneratedCode\Food.cs" />
-    <Compile Include="GeneratedCode\Orphan.cs" />
-    <Compile Include="GeneratedCode\Tracking.cs" />
-    <Compile Include="GeneratedCode\VetServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

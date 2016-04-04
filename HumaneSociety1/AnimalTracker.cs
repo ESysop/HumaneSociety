@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety1
 	{
-	class Program
+	class AnimalTracker
 		{
-		static void Main (string[] args)
+		public List<String>AnimalList;
+
+		public AnimalTracker ()
 			{
-			AdoptionDesk adoptionDesk = new AdoptionDesk();
-			adoptionDesk.FirstMenuScreen();
+			AnimalList = new List<String>();
 			}
 		}
+
 	}

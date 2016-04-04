@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety1
 	{
-	class Program
+	class Orphan
 		{
-		static void Main (string[] args)
-			{
-			AdoptionDesk adoptionDesk = new AdoptionDesk();
-			adoptionDesk.FirstMenuScreen();
-			}
 		}
 	}

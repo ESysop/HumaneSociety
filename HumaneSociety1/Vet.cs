@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety1
 	{
-	class Program
+	class Vet
 		{
-		static void Main (string[] args)
-			{
-			AdoptionDesk adoptionDesk = new AdoptionDesk();
-			adoptionDesk.FirstMenuScreen();
-			}
+		public bool shotsGiven;
+
 		}
 	}

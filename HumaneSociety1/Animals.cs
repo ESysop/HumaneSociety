@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety1
 	{
-	class Program
+	class Animals
 		{
-		static void Main (string[] args)
+		public int animalIDNumber;
+		public double cupsOfFoodPerDay;
+		public string cageType;
+		public Animals ()
 			{
-			AdoptionDesk adoptionDesk = new AdoptionDesk();
-			adoptionDesk.FirstMenuScreen();
+
 			}
 		}
+
+
+
 	}

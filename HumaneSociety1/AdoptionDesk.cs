@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety1
 	{
-	class Program
+	class AdoptionDesk
 		{
-		static void Main (string[] args)
+		public AdoptionDesk ()
 			{
-			AdoptionDesk adoptionDesk = new AdoptionDesk();
-			adoptionDesk.FirstMenuScreen();
+
+			}
+
+		public void FirstMenuScreen ()
+			{
+			Console.WriteLine("\tHUMANE SOCIETY SOLUTION CENTER\n\n\t\tMAIN MENU\n");
 			}
 		}
 	}
