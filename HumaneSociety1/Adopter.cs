@@ -8,6 +8,7 @@ namespace HumaneSociety1
 	{
 	class Adopter
 		{
+		public List<string> adopterNameList = new List<string>();
 		public string adopterName;
 
 		}
