@@ -10,8 +10,9 @@ namespace HumaneSociety1
 		{
 		static void Main (string[] args)
 			{
-			AdoptionDesk adoptionDesk = new AdoptionDesk();
-			adoptionDesk.FirstMenuScreen();
+			AdoptionDesk getAdoptionDeskMenu = new AdoptionDesk();
+			getAdoptionDeskMenu.FirstMenuScreen();
+			getAdoptionDeskMenu.MenuChoiceScreen();
 			}
 		}
 	}

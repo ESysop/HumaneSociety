@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety1
 	{
-	class DogFood
+	class DogFood : Food
 		{
+		public DogFood ()
+			{
+
+			}
+		public List<double> dogFoodList;
+		//public double addToDogFoodList ()
+		//	//{
+		//	//double dogFoodList = dogFoodList + dog.dailyFoodRation;
+		//	return dogFoodList;
+		//	}
+
 		}
+	
+	
+		
 	}
+	

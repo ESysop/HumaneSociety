@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="c07e7195-9efc-4a24-9ce6-fec9d2b9daf4"
   name="HumaneSocietyUMLdiagram" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -502,8 +502,8 @@
     <packageHasNamedElement>
       <class
         Id="2e84c201-5739-46e5-a686-269bfd125116"
-        name="Animals"
-        isAbstract="false"
+        name="Animal"
+        isAbstract="true"
         isLeaf="false"
         isActiveClass="false">
         <appliedStereotypesInternal>
@@ -1509,7 +1509,7 @@
             isAbstract="false">
             <classMoniker
               Id="2e84c201-5739-46e5-a686-269bfd125116"
-              LastKnownName="Animals"
+              LastKnownName="Animal"
               LastKnownLocation="HumaneSocietyUMLdiagram.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -1602,7 +1602,7 @@
             isAbstract="false">
             <classMoniker
               Id="2e84c201-5739-46e5-a686-269bfd125116"
-              LastKnownName="Animals"
+              LastKnownName="Animal"
               LastKnownLocation="HumaneSocietyUMLdiagram.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -1695,7 +1695,7 @@
             isAbstract="false">
             <classMoniker
               Id="2e84c201-5739-46e5-a686-269bfd125116"
-              LastKnownName="Animals"
+              LastKnownName="Animal"
               LastKnownLocation="HumaneSocietyUMLdiagram.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>

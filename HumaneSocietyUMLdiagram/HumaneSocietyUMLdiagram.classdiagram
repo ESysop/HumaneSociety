@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="1496f10c-0c3c-4a38-81a2-f1d9f303e474" name="HumaneSocietyUMLdiagram" linkedPackageId="505b532c-012c-46ad-a385-06600fdb0b1a" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="1496f10c-0c3c-4a38-81a2-f1d9f303e474" name="HumaneSocietyUMLdiagram" linkedPackageId="505b532c-012c-46ad-a385-06600fdb0b1a" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <appliedStereotypesInternal>
     <stereotypeInstance Id="52174492-dabd-499f-9e6a-93f61bc84798" name="namespace" profile="CSharpProfile">
       <elementDefinition Id="7083bb82-153b-4ce1-897e-2e8ad76a86e1" />
@@ -344,7 +344,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="d444601e-7dce-4e92-8c3a-62733d618abc" name="Animals" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="d444601e-7dce-4e92-8c3a-62733d618abc" name="Animal" isAbstract="true" isLeaf="false" isActiveClass="false">
         <appliedStereotypesInternal>
           <stereotypeInstance Id="099e32a9-747e-4b4c-9d54-a47f171944b6" name="class" profile="CSharpProfile">
             <elementDefinition Id="901ae1d3-60a0-4d76-a243-239dc9457278" />
@@ -1055,7 +1055,7 @@
         <elementDefinition Id="28ed9924-12f1-4442-bd8d-a093784e614c" />
         <targetEnds>
           <association Id="43b18e2c-e2c6-437d-9493-3611d1b98206" isDerived="false" sourceEndRoleName="Cat" targetEndRoleName="Animals" isLeaf="false" isAbstract="false">
-            <classMoniker Id="d444601e-7dce-4e92-8c3a-62733d618abc" LastKnownName="Animals" />
+            <classMoniker Id="d444601e-7dce-4e92-8c3a-62733d618abc" LastKnownName="Animal" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="ba5c5e19-1cb2-4be5-bba2-d6194dde0d4b" name="Cat" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -1115,7 +1115,7 @@
         <elementDefinition Id="7fbd5c98-fb63-4334-bbc9-61dd0ad89e2f" />
         <targetEnds>
           <association Id="3c924f1d-eaa6-426c-b2df-339e08ee42d7" isDerived="false" sourceEndRoleName="Dog" targetEndRoleName="Animals" isLeaf="false" isAbstract="false">
-            <classMoniker Id="d444601e-7dce-4e92-8c3a-62733d618abc" LastKnownName="Animals" />
+            <classMoniker Id="d444601e-7dce-4e92-8c3a-62733d618abc" LastKnownName="Animal" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="3982c121-0eda-4356-97ed-169e142b3045" name="Dog" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -1175,7 +1175,7 @@
         <elementDefinition Id="10d6672e-f7bb-4768-adbd-4e4ab3e02a11" />
         <targetEnds>
           <association Id="ac0974c2-9cbf-4502-816c-48a5b70c73ad" isDerived="false" sourceEndRoleName="Bird" targetEndRoleName="Animals" isLeaf="false" isAbstract="false">
-            <classMoniker Id="d444601e-7dce-4e92-8c3a-62733d618abc" LastKnownName="Animals" />
+            <classMoniker Id="d444601e-7dce-4e92-8c3a-62733d618abc" LastKnownName="Animal" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="6ddc24ea-5b55-4a14-b45c-a1ad0666039f" name="Bird" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">

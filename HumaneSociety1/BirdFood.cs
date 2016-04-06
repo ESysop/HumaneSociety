@@ -8,5 +8,10 @@ namespace HumaneSociety1
 	{
 	class BirdFood
 		{
+		public BirdFood ()
+			{
+
+			}
+		public List<double> birdFoodList;
 		}
 	}

@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety1
 	{
-	class Birds
+	class Bird 
 		{
+		public Bird ()
+			{
+
+			}
+		public List<string> birdList;
+		public double dailyFoodRation = .5;
+
 		}
 	}

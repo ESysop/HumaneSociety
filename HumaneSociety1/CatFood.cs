@@ -8,5 +8,11 @@ namespace HumaneSociety1
 	{
 	class CatFood
 		{
+		public CatFood ()
+			{
+
+			}
+		public List<double> catFoodList;
 		}
+
 	}

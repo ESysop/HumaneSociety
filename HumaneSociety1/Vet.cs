@@ -8,7 +8,14 @@ namespace HumaneSociety1
 	{
 	class Vet
 		{
-		public bool shotsGiven;
+		//public bool shotsGiven;
+		public Vet ()
+			{
 
+			}
+		public void vetAppointment ()
+			{
+			//add shot status to animal ID
+			}
 		}
 	}

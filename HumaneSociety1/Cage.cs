@@ -8,11 +8,10 @@ namespace HumaneSociety1
 	{
 	class Cage
 		{
-		public string[] cageTypes;
 
 		public Cage ()
 			{
-			cageTypes = new string[3] { "Dog Cage", "Cat Box", "Bird Cage" };
+			
 			}
 
 		}

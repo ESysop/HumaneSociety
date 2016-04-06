@@ -8,10 +8,13 @@ namespace HumaneSociety1
 	{
 	class AdoptionDesk
 		{
-		OrphanedAnimal inboundAnimal = new OrphanedAnimal();
+		public List<Animal> animalInfoList;
+
+		OrphanedAnimal inboundAnimal;
+		Adopter adopter;
 		public AdoptionDesk ()
 			{
-
+			
 			}
 
 		public void FirstMenuScreen ()
@@ -21,19 +24,30 @@ namespace HumaneSociety1
 
 		public void MenuChoiceScreen ()
 			{
-			Console.WriteLine("Choose from the list below:\n\n[1] \tNew Animal\n[2]\tNew Adoption\n[3]\tCheck Animal Inventory\n[4]\tList Adopter History");
+			Console.WriteLine("Choose from the list below:\n\n[1] \tNew Animal Intake\n[2]\tNew Adoption\n[3]\tCheck Current Animal Inventory\n[4]\tList Adopter History\n[5]\tList of Food Needed per Day\n");
 			string menuChoice = Console.ReadLine();
 			switch (menuChoice)
 				{
 				case "1":
+					inboundAnimal = new OrphanedAnimal();
 					inboundAnimal.IntakeAnimalType();
 					break;
 				case "2":
+					adopter.adoptionMenu();
+					adopter = new Adopter();
 
 					break;
 				case "3":
+					//check animal inventory
+					break;
+				case "4":
+					//adopter history
+					break;
+				case "5":
+					//List of food needs
 
 				default:
+					MenuChoiceScreen();
 					break;
 
 				}
