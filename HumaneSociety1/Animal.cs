@@ -11,15 +11,15 @@ namespace HumaneSociety1
 		public string name;
 		public double animalAdoptionValue;
 		public double foodUnitsRequired;
-		public string cageID;
+		public int cageID ;
 		public bool shotsRequired;
 
-		public Animal (string Name, double AnimalAdoptionValue, double FoodUnitsRequired, string CageID, bool ShotsRequired)
+		public Animal ( string Name, double AnimalAdoptionValue, double FoodUnitsRequired, bool ShotsRequired)
 			{
 			name = Name;
 			animalAdoptionValue = AnimalAdoptionValue;
 			foodUnitsRequired = FoodUnitsRequired;
-			cageID = CageID;
+			cageID++;
 			shotsRequired = ShotsRequired;
 			}
 		}

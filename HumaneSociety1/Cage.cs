@@ -8,10 +8,10 @@ namespace HumaneSociety1
 	{
 	class Cage
 		{
-
-		public Cage ()
+		public Animal animal;
+		public Cage (Animal animalToAdd)
 			{
-			
+			animal = animalToAdd;
 			}
 
 		}

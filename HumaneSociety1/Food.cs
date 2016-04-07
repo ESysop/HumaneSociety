@@ -20,7 +20,7 @@ namespace HumaneSociety1
 			//dogFood = new DogFood();
 			catFood = new CatFood();
 			birdFood = new BirdFood();
-			dog = new Dog();
+			//dog = new Dog();
 			cat = new Cat();
 			bird = new Bird();
 			}

@@ -46,7 +46,6 @@
     <Compile Include="Adopter.cs" />
     <Compile Include="AdoptionDesk.cs" />
     <Compile Include="Animal.cs" />
-    <Compile Include="AnimalTracker.cs" />
     <Compile Include="BirdFood.cs" />
     <Compile Include="Birds.cs" />
     <Compile Include="Cage.cs" />
@@ -55,7 +54,6 @@
     <Compile Include="Dog.cs" />
     <Compile Include="DogFood.cs" />
     <Compile Include="Food.cs" />
-    <Compile Include="Orphan.cs" />
     <Compile Include="OrphanedAnimal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

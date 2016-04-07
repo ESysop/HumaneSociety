@@ -8,13 +8,13 @@ namespace HumaneSociety1
 	{
 	class AdoptionDesk
 		{
-		public List<Animal> animalInfoList;
+		public List<Cage> cages;
 
 		OrphanedAnimal inboundAnimal;
 		Adopter adopter;
 		public AdoptionDesk ()
 			{
-			
+			cages = new List<Cage>();
 			}
 
 		public void FirstMenuScreen ()
@@ -30,7 +30,9 @@ namespace HumaneSociety1
 				{
 				case "1":
 					inboundAnimal = new OrphanedAnimal();
-					inboundAnimal.IntakeAnimalType();
+					inboundAnimal.IntakeAnimalInfo();
+					cages.Add(new Cage(inboundAnimal.IntakeAnimalInfo()));
+					MenuChoiceScreen();
 					break;
 				case "2":
 					adopter.adoptionMenu();

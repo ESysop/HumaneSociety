@@ -10,45 +10,39 @@ namespace HumaneSociety1
 		{
 		public OrphanedAnimal ()
 			{
-			
 			}
 
-		public void IntakeAnimalType ()
+		public Animal IntakeAnimalInfo ()
 			{
-			Console.Write("Thank you for Bringing Us your Undesired Creature, \n\nWhat kind of animal are we taking in?\n\n[1]\tBird\n[2]\tCat\n[3]\tDog\n");
-			string intake = Console.ReadLine();
-				switch (intake)
-				{
-				case "1":
-					//add to birdList
-					break;
-
-				case "2":
-					//add to catList
-					break;
-
-					case "3":
-					//add to dogList
-					break;
-
-				case "4":
-					
-					break;
-					
-				default:
-				 break;
-				}
-			Console.WriteLine("To the best of your knowledge is this animal up to date with its innoculations?\n\n[Y] or [N]");
+			Console.Write("\nThank you for Bringing Us your Undesired Creature, \n\nWe require some information so we can take over your responsabilities and properly care for the animal.\n\nWhat is the name of animal are we taking in go by?\n");
+			Console.Write("Name: ");
+			string newPetName = Console.ReadLine();
+			bool needShots;
+			double foodUnits;
+			double donorValue;
+			Console.WriteLine("\nTo the best of your knowledge is this animal up to date with its shots?\n");
+			Console.Write("\n[Y] or [N]");
 			string haveShots = Console.ReadLine();
-			if ( haveShots.ToUpper() == "N")
-				{
-				Console.WriteLine("\n\nLets make an appointment with the Vetrinarian right away then,"	 );
+				if ( haveShots.ToUpper() == "N")
+					{
+					Console.WriteLine("\n\nLets make an appointment with the Vetrinarian right away then,"	 );
+					needShots = true;
+					}
+				else
+					{
+					Console.WriteLine("Awesome, you are a great animal handler.");
+					needShots = false;
+					}
+			Console.WriteLine("If you ever fed them, how many units of food would they eat per day?\n" );
+			Console.Write("Food Units: ");
+			foodUnits = Convert.ToDouble(Console.ReadLine());
+			Console.WriteLine("Although this animal has no value to you, how much might someone else consider to pay for this priceless life?\n\n");
+			Console.WriteLine("Value: ");
+			donorValue = Convert.ToDouble(Console.ReadLine());
 
-				}
-			else
-				{
-				Console.WriteLine("Awesome, you are a great animal handler.");
-				}
+
+			// make switch case for return type
+			return new Dog( newPetName, donorValue, foodUnits, needShots);
 			}
 		}
 	}

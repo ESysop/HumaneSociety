@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety1
 	{
-	class Dog 
+	class Dog : Animal
 		{
-		public Dog ()
+		public Dog ( string Name, double AnimalAdoptionValue, double FoodUnitsRequired, bool ShotsRequired) : base( Name, AnimalAdoptionValue, FoodUnitsRequired, ShotsRequired)
+			
 			{
 			}
-		public List<string> dogList;
-		public double dailyFoodRation = 8;
+
 		}
 	}
